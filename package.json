@@ -1,0 +1,31 @@
+{
+  
+	"name": "postman",
+  
+	"version": "1.0.0",
+  
+	"description": "Project for storing Postman tests",
+  
+	"directories": {
+    
+		"test": "tests"
+  
+	},
+  
+	"scripts": {
+    
+		"api-tests-production": "newman run tests/postman_newman_jenkins.postman_collection.json"
+  
+	},
+  
+	"author": "Mark Brite",
+  
+	"license": "ISC",
+  
+	"dependencies": {
+    
+		"newman": "^4.1.0"
+  
+	}
+
+api-}
